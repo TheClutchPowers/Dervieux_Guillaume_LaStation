@@ -96,10 +96,12 @@ nav a:hover {
 article {
   background-color: white;
   width: 320px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 4px #0e5ea1;
 }
 article img {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 5px;
 }
 article h3 {
   font-family: dosis, sans-serif;
@@ -118,4 +120,32 @@ article h4 {
   font-weight: bold;
   font-size: 14px;
   padding: 16px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #b7b7b7;
+  border-radius: 5px;
+  display: inline;
+  align-self: center;
+}
+.centre {
+  margin-top: 95px;
+}
+article h4:hover {
+  background-color: #0e5ea1;
+  color: white;
+}
+
+.couple {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+  font-family: roboto, sans-serif;
 }
