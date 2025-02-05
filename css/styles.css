@@ -11,6 +11,9 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #e3e4e4;
+}
 /*-----------------------------------------------------------------------------------------
 generique
 -----------------------------------------------------------------------------------------*/
@@ -22,6 +25,7 @@ header {
   font-family: dosis, sans-serif;
   font-weight: bold;
   font-size: 16px;
+  background-color: white;
 }
 ul {
   padding-left: 0;
@@ -57,14 +61,61 @@ nav a:hover {
   background-repeat: no-repeat;
   height: 450px;
   background-position: center;
+  display: flex;
+  align-items: center;
 }
 .boite {
   background-color: black;
   border-radius: 10px;
+  opacity: 0.5;
+  width: 455px;
+  height: 120px;
 }
 .boite h2 {
   color: white;
+  font-family: dosis, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 25px;
 }
 .boite h4 {
   color: #2fcb48;
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.grille {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+article {
+  background-color: white;
+  width: 320px;
+}
+article img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+article h3 {
+  font-family: dosis, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10px;
+}
+article p {
+  font-family: roboto, sans-serif;
+  font-size: 16p;
+  line-height: 160%;
+  margin: 10px;
+}
+article h4 {
+  font-family: dosis, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 16px 40px;
 }
