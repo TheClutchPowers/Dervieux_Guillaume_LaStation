@@ -1,0 +1,70 @@
+/*-----------------------------------------------------------------------------------------
+base
+-----------------------------------------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*-----------------------------------------------------------------------------------------
+generique
+-----------------------------------------------------------------------------------------*/
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header {
+  font-family: dosis, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+ul {
+  padding-left: 0;
+}
+/*-----------------------------------------------------------------------------------------
+component
+-----------------------------------------------------------------------------------------*/
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+}
+header img {
+  align-items: center;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+nav a:hover {
+  color: white;
+  background-color: #0e5ea1;
+  border-radius: 5px;
+}
+.hero {
+  background-image: url(../images/SECTIONHERO.jpg);
+  background-repeat: no-repeat;
+  height: 450px;
+  background-position: center;
+}
+.boite {
+  background-color: black;
+  border-radius: 10px;
+}
+.boite h2 {
+  color: white;
+}
+.boite h4 {
+  color: #2fcb48;
+}
